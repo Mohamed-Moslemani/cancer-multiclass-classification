@@ -1,7 +1,7 @@
 
 # 🧬 Cancer Multiclass Classification 🧬
 
-Welcome to **Cancer Multiclass Classification** – a repository focused on using advanced machine learning techniques to classify different types of cancer. Leveraging powerful methods such as transfer learning and few-shot learning, this project aims to tackle the challenge of accurately identifying cancer types from medical imaging data. 🌐✨
+Welcome to **Cancer Multiclass Classification** – a repository focused on using advanced machine learning techniques to classify different types of cancer from image data. Leveraging powerful methods such as transfer learning and few-shot learning, this project aims to tackle the challenge of accurately identifying cancer types from medical imaging. 🌐✨
 
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/mohamed-moslemani/cancer-multiclass-classification)
 ![License](https://img.shields.io/github/license/mohamed-moslemani/cancer-multiclass-classification)
@@ -9,7 +9,7 @@ Welcome to **Cancer Multiclass Classification** – a repository focused on usin
 
 ## 🌠 Project Overview
 
-This repository is dedicated to the task of multiclass cancer classification using state-of-the-art techniques in computer vision and machine learning. The project primarily utilizes **transfer learning** to leverage pre-trained models and **few-shot learning** methods to achieve accurate classifications with limited data. This approach is especially useful in the medical domain, where annotated data can be scarce.
+This repository is dedicated to multiclass cancer classification using state-of-the-art techniques in computer vision and deep learning. By leveraging **transfer learning** with pre-trained models and **few-shot learning** for limited data scenarios, this project addresses the challenge of image-based cancer classification in the medical field, where labeled data can often be limited.
 
 ## 🔍 Key Components
 
@@ -17,14 +17,14 @@ Here’s a look at the main components in this repository:
 
 | File/Folder                     | Description                                                                 |
 |---------------------------------|-----------------------------------------------------------------------------|
-| `MRI_MODEL_IN_PROCESS_IncRes.ipynb` | Jupyter notebook implementing a cancer classification model using transfer learning and few-shot learning techniques. |
+| `MRI_MODEL_IN_PROCESS_IncRes.ipynb` | Jupyter notebook implementing a cancer classification model using transfer learning and few-shot learning techniques on image data. |
 | `README.md`                     | This README file providing an overview and usage guidelines.                |
 
 ## 📄 Features
 
-- **Transfer Learning**: Leverages pre-trained models to enhance classification accuracy with limited data.
-- **Few-Shot Learning**: Enables effective classification even with minimal samples for each cancer type.
-- **Multiclass Classification**: Capable of distinguishing between multiple types of cancer, providing comprehensive diagnostic support.
+- **Transfer Learning**: Leverages pre-trained deep learning models for accurate classifications on limited image data.
+- **Few-Shot Learning**: Adapts models to classify various cancer types with minimal samples.
+- **Multiclass Classification**: Designed to differentiate between multiple types of cancer, enhancing diagnostic support.
 
 ## 🔧 Getting Started
 
@@ -57,7 +57,7 @@ Here’s a look at the main components in this repository:
 
 5. **Run the Classification Notebook**
 
-   Launch Jupyter Notebook to explore and execute the model:
+   Use Jupyter Notebook to explore and execute the model on image data:
 
    ```bash
    jupyter notebook MRI_MODEL_IN_PROCESS_IncRes.ipynb
@@ -67,7 +67,7 @@ Here’s a look at the main components in this repository:
 
 - **Programming Language**: Python 🐍
 - **Machine Learning Frameworks**: TensorFlow/Keras for transfer learning and few-shot learning
-- **Data Handling**: Pandas and NumPy for efficient data manipulation
+- **Image Data Handling**: TensorFlow and Keras utilities for image preprocessing and augmentation
 
 ## 🤔 How to Contribute
 
